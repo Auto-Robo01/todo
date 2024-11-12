@@ -1,0 +1,17 @@
+### Check if port is working
+post http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+    "email": "a4@g.com",
+    "password": "testhawa",
+    "mobile": 123456789,
+    "name": "test2",
+    "hobbies": "h1",
+    "country": "in",
+    "gender": "Male"
+
+}
+
+### get file
+GET http://localhost:3000/auth
